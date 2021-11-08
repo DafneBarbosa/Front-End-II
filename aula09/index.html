@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front End II - Checkpoint 1</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  
+  <form>
+    <h1>CADASTRE-SE</h1>
+    <input type="text" id="nome" placeholder="Insira seu nome" autocomplete="off">
+    <p id="aviso" disabled>*use somente letras, não numeros</p>
+    
+    <div>
+      <input type="checkbox" name="termos" id="termos">
+      <label for="termos">Aceito os termos</label>
+    </div>
+
+    <div>
+      <input type="checkbox" name="email" id="email">
+      <label for="email">Aceito receber emails</label>
+    </div>
+
+    <button type="submit" id="enviar" disabled>Cadastrar</button>
+    <button type="reset" id="cancelar">Limpar Campos</button>
+  </form>
+
+  <p id="mensagem"></p>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
