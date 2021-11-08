@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front End II - Checkpoint 1</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <img class="logo" src="./img/logo.png" alt="logo planta">
+
+
+  <form>
+    <h1>CADASTRE SUA PLANTA</h1>
+    <input type="text" id="nome" placeholder="Nome da sua planta">
+    <input type="text" id="descricao" placeholder="Descrição">
+    <input type="text" id="imagem" placeholder="URL da imagem">
+    
+    <label for="luminosidade">Lumidosidade:</label>
+    <section id="luminosidade">
+      <div>
+        <input type="radio" name="luminosidade" id="sol" value="sol">
+        <label for="sol">Sol</label>
+      </div>
+      <div>
+        <input type="radio" name="luminosidade" id="meia-sombra" value="meia sombra">
+        <label for="meia-sombra">Meia Sombra</label>
+      </div>
+      <div>
+        <input type="radio" name="luminosidade" id="sombra" value="sombra">
+        <label for="sombra">Sombra</label>
+      </div>
+    </section>
+    
+    <div id="toxicidade">
+      <input type="checkbox" name="toxica" id="toxica">
+      <label for="toxica">Tóxica</label>
+    </div>
+
+    <button type="submit" id="enviar">Cadastrar</button>
+    <button type="reset" id="cancelar">Limpar Campos</button>
+  </form>
+
+  <h1 id='titulo2'>PLANTAS CADASTRADAS</h1>
+  <div id="plantas">
+    <div id="exemplo">
+      <h3>Exemplo:</h3>
+      <h2>Jibóia Neon</h2>
+      <p>Rega 1 vez na semana <br>Lumidosidade: meia-sombra <br>Toxicidade: essa planta não é tóxica</p>
+    </div>
+
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

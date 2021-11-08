@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+body {
+    color: white;
+    background-color: rgb(102, 84, 127);
+    text-align: center;
+}
+
+.logo {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+form {
+    display: grid;
+    place-content: center;
+}
+
+h1 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 8px;
+    border-style: none;
+    border-radius: 4px;
+}
+
+#imagem {
+    margin-bottom: 20px;
+}
+
+#luminosidade {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 0px;
+}
+#luminosidade label {
+    margin-left: 5px;
+}
+
+#toxicidade {
+    margin: 10px 0px;
+}
+
+button {
+    background-color: rgb(174,200,158);
+    margin-bottom: 8px;
+    padding: 8px;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 4px;
+    transition: .2s;
+}
+
+button:hover {
+    background-color: rgb(141, 161, 128);
+}
+
+#titulo2 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+#plantas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#plantas div{
+    height: calc(100vw/4);
+    width: calc(100vw/3.5);
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s;
+}
+
+h2, p {
+    background-color: rgba(245, 244, 244, 0.89);
+    color: rgb(68, 83, 60);
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 4px;
+}
+
+h3 {
+    color: rgb(165, 163, 163);
+    margin: 10px 0px 0px 20px;
+    text-align: left;
+}
+
+#exemplo {
+    background-image: url('https://m.media-amazon.com/images/I/41VL9rZeHxL.jpg');
+}
+
+div div:hover {
+    transform: scale(1.05);
+}
+
+div div:hover h2{
+    visibility: hidden;
+}
+
+div div:hover p{
+    visibility: hidden;
+}
