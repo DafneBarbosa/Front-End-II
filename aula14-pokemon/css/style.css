@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.tipo, .tipo2 {
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
+  margin: 5px;
+  width: 85px;
+  line-height: 1.2;
+  text-align: center;
+  border-style: none;
+}
+
+.pokemons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 180px;
+  background-color: #e0dede;
+  border-radius: 4px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#checked {
+  background-color: #A8B820;
+}
+
+p {
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 3px;
+  margin-left: 0px;
+  top: 0px;
+  width: 75px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+#grass {
+  background-color: #78C850;
+}
+
+#poison {
+  background-color: #A040A0;
+}
+
+#normal {
+background-color:  #A8A878;
+}
+
+#fighting {
+background-color:  #C03028;
+}
+
+#flying{
+background-color: #A890F0;
+}
+
+#ground {
+background-color:  #E0C068;
+}
+
+#rock {
+background-color: #B8A038;
+}
+
+#bug {
+background-color: #A8B820;
+}
+
+#ghost {
+background-color: #705898;
+}
+
+#steel {
+background-color:  #B8B8D0;
+}
+
+#fire {
+  background-color: #F08030;
+}
+
+#water {
+background-color: #6890F0;
+}
+
+#electric {
+background-color: #F8D030;
+}
+
+#psychic {
+background-color: #F85888;
+}
+
+#ice {
+background-color: #98D8D8;
+}
+
+#dragon {
+background-color: #7038F8;
+}
+
+#dark {
+background-color: #705848;
+}
+
+#fairy {
+background-color: #EE99AC;
+}
+
+input[name="checked"] {
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
+  margin: 5px;
+  width: 95px;
+  color: white;
+}
+
+div:empty {
+  display:none;
+}
+
+:disabled {
+  background-color: gray !important;
+}

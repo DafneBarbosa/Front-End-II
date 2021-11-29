@@ -21,6 +21,7 @@ nome.addEventListener('keyup', (event) => {
         nome.style.color = 'black';
         aviso.style.display = 'none';
     }
+
 })
 
 //Se o 'aceitar termos' estiver desmarcado nao libera o botao enviar

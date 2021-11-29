@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  main {
+    padding: 3rem;
+    background-color: rgb(56, 56, 53);
+    color: rgb(213, 219, 202);
+    height: 100vh;
+  }
+  
+  main h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  main .flex .button {
+    margin: 0.7rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    background-color: rgb(166, 197, 146);
+    color: rgb(32, 51, 27);
+    border: 0;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  
+  main li {
+    margin-bottom: 0.5rem;
+  }
+  /*# sourceMappingURL=styles.css.map */

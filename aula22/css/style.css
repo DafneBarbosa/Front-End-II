@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.card-pokemon {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    height: 30px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+
+#tipo{
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 0px;
+    top: 0px;
+    width: 75px;
+    line-height: 1.2;
+    text-align: center;
+    background-color:  #E0C068;
+}
+
+#xp {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    height: 25px;
+
+}
+
+#barra-xp {
+    width: 100%;
+    height: 15px;
+    background-color: rgb(184, 182, 182);
+}
+
+#barra-xp-progresso {
+    height: 15px;
+    background-color: rgb(64, 186, 235);
+}
+
